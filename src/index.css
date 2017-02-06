@@ -1,5 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
+
+.months-container li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.day-number {
+  float: left;
+}
+.day-name {
+  float: right;
+}
+
