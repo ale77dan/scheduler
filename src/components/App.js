@@ -72,9 +72,12 @@ class App extends Component {
   }
 
   render() {
+    const { year } = this.state;
     return (
       <div className="App">
         Welcome to the React world! :)
+
+        <h2>{year}</h2>
 
         {this.renderMonths()}
       </div>
